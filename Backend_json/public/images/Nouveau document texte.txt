@@ -1,0 +1,26 @@
+tr  
+                        td(scope="col") 
+                            | Portable O2
+                            br
+                            | #1
+                        td(scope="col") 
+                            img(src="/images/PortableO2.jpg", alt="Portable O2")
+                        td(scope="col")
+                            p(class="p_masterO2") Qte utilisé
+                            input(class="form-control input_O2" type="number" min="0" max="2500" step="10" value="0" name="Input_PortableO2_1")
+                            input(id="btnAdd" class="btn btn-primary button_2" type="submit"  value="Portable 1")
+                        td 
+                            include includes/O2_Portable1  
+                    tr  
+                        td(scope="col") 
+                            | Portable O2
+                            br
+                            | #2
+                        td(scope="col") 
+                            img(src="/images/PortableO2.jpg", alt="Portable O2")
+                        td(scope="col")
+                            p(class="p_masterO2") Qte utilisé
+                            input(class="form-control input_O2" type="number" min="0" max="2500" step="10" value="0" name="Input_PortableO2_2")
+                            input(id="btnAdd" class="btn btn-primary button_2" type="submit"  value="Portable 2")
+                        td 
+                            include includes/O2_Portable2             
